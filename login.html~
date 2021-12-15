@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name='viewport" content='width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style_login.css">
+</head>
+<body>	
+	<form action="">
+		<div class="container">
+			<label for="uname"><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="uname" required>
+	
+			<label for="psw"><b>Password</b></label>
+			<input type="text" placeholder="Enter Password" name="uname" required>
+
+
+			<button type="submit" name="s">Login</button>
+		</div>
+		
+		<div class="container" style="background-color:#f1f1f1">
+			<a href="home.html"><button type="button" class="cancelbtn" value="Cancel">Cancel</button></a>
+			<span class="psw">Don't have an account ?<a href="register.php">Create One</a></span>
+
+		</div>
+	</form>
+	</body>
+</html>
+<?php 
+	if
